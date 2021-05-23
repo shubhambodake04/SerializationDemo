@@ -8,8 +8,8 @@ namespace SerializationDemo
         {
             BinarySerialization binarySerialization = new BinarySerialization();
             binarySerialization.Serialization();
-            BinaryDeSerialization binaryDeSerialization = new BinaryDeSerialization();
-            binaryDeSerialization.DeSerialization();
+           // BinaryDeSerialization binaryDeSerialization = new BinaryDeSerialization();
+            //binaryDeSerialization.DeSerialization();
             Console.ReadKey();
         }
     }
